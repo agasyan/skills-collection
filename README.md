@@ -31,6 +31,7 @@ Compact notes to read before writing a skill or a doc. No skill loads them.
 
 - `references/ai-best-practice.md`: how to write skills, prompts, and agent instructions, grounded in the repo notes below.
 - `references/ai-best-practice/`: one `repo_*.md` note per repo (ponytail, superpowers, mattpocock, oh-my-pi, pi, i-have-adhd, taste-skill), each pinned to the commit it was read at.
+- `references/better-design-with-ai/`: getting good, non-generic UI out of an AI. `design-guide.md` (before coding, banned tells, checks, maintained libraries), `design-md-template.md` (a DESIGN.md for each repo), and `cloudflare-free-limitation.md` (how many libraries a fullstack repo can carry on Cloudflare's free plan, and where each runs); 9 source notes in `sources/` from taste-skill, impeccable, Anthropic's frontend-design, emilkowalski, AntislopUI, the DESIGN.md spec, and npm usage data.
 - `references/cloudflare-free-ref/`: everything for building an internal system on Cloudflare's free plan. Guides at the top; every research note and source result in `sources/` (`research_*`, `system_*`, `blog_*`):
   - `ui-internal-system-design.md`: UI design with user-centered design, including users who only know email, Word, and Excel.
   - `system.md`, `stack.md`: Workers, D1, R2, and build free limits; Hono, Astro, and React on Workers.
